@@ -1,0 +1,3 @@
+homer:
+  nickname: homer
+  password_digest: <%= BCrypt::Password.create('homer', cost: 5) %>
